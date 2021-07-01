@@ -1,6 +1,6 @@
 /* user and group to drop privileges to */
-static const char *user  = "nobody";
-static const char *group = "nogroup";
+static const char *user  = "leonardson";
+static const char *group = "leonardson";
 
 static const char *colorname[NUMCOLS] = {
 	[INIT] =   "black",     /* after initialization */
@@ -9,7 +9,7 @@ static const char *colorname[NUMCOLS] = {
 };
 
 /* lock screen opacity */
-static const float alpha = 1;
+static const float alpha = 0.9;
 
 /* treat a cleared input like a wrong password (color) */
 static const int failonclear = 1;
