@@ -14,8 +14,8 @@ static const float alpha = 0.8;
 /* treat a cleared input like a wrong password (color) */
 static const int failonclear = 1;
 
-/* default message */
-static const char * message = "Locked: Top";
+/* message */
+static const char * message = "Locked: Type password to enter :)";
 
 /* text color */
 static const char * text_color = "#ffffff";
